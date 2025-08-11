@@ -1,4 +1,4 @@
-package Atividade7;
+package ExerciciosAula01.Atividade7;
 
 public class Quarto {
     private int numero;

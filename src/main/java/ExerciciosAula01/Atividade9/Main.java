@@ -1,4 +1,4 @@
-package Atividade9;
+package ExerciciosAula01.Atividade9;
 
 public class Main {
     public static void main(String[] args) {

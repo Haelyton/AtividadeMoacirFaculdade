@@ -1,4 +1,4 @@
-package Atividade3;
+package ExerciciosAula01.Atividade3;
 
 import java.util.List;
 

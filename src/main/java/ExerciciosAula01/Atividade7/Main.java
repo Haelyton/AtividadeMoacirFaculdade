@@ -1,4 +1,4 @@
-package Atividade7;
+package ExerciciosAula01.Atividade7;
 
 import java.time.LocalDate;
 

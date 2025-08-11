@@ -1,4 +1,4 @@
-package Atividade5;
+package ExerciciosAula01.Atividade5;
 
 class Carro {
     String modelo;              // Importante manter
