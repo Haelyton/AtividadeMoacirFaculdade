@@ -12,7 +12,7 @@ Isso significa que:
 - Para acessar uma atividade específica, basta alternar para a branch correspondente ao número/nome da atividade.
 
 ### 📌 Estrutura das Branches
-- `exercicio1` → Primeira atividade
-- `exercicio2` → Segunda atividade
-- `exercicio3` → Terceira atividade  
+- `AulaXX` → Atividade sobre...
+- `AulaXX` → Atividade sobre...
+- `AulaXX` → Atividade sobre... 
 *(E assim por diante...)*
