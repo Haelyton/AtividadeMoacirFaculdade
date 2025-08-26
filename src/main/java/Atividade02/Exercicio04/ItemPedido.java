@@ -16,6 +16,36 @@ public class ItemPedido {
         this.preco = preco;
     }
 
+    public String getProduto() {
+        return produto;
+    }
 
+    public void setProduto(String produto) {
+        this.produto = produto;
+    }
 
+    public Integer getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(Integer quantidade) {
+        this.quantidade = quantidade;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public double getSubtotal() {
+        return quantidade * preco;
+    }
+
+    @Override
+    public String toString() {
+        return quantidade + "x " + produto + " (R$" + preco + ")";
+    }
 }

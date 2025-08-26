@@ -1,5 +1,6 @@
 package Atividade02.Exercicio03;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,7 +10,7 @@ import java.util.List;
 public class Departamento {
 
     private String nome;
-    private static List<Funcionario> funcionarios;
+    private static List<Funcionario> funcionarios = new ArrayList<>();
 
     public Departamento(final String nome) {
         this.nome = nome;
@@ -25,6 +26,13 @@ public class Departamento {
 
     public static void addFuncionario(Funcionario funcionario) {
         funcionarios.add(funcionario);
+    }
+
+    @Override
+    public String toString() {
+        return "Departamento{" +
+                "nome='" + nome + '\'' +
+                '}';
     }
 
     public static List<Funcionario> getFuncionarios() {
